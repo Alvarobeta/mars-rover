@@ -6,7 +6,7 @@ ENV PYTHONUNBUFFERED 1
 RUN apk add --update --no-cache --virtual .tmp-build-deps \
     gcc libc-dev linux-headers build-base
 
-FROM base AS local-server
+FROM base AS local-server-mars_rover
 
 WORKDIR "/app/app"
 
@@ -21,4 +21,4 @@ WORKDIR "/app"
 RUN adduser -D user
 USER user
 
-CMD ["uvicorn", "app.app_name.infrastructure.FastAPI.main:app", "--host", "0.0.0.0",  "--port", "8888", "--no-server-header", "--reload"]
+CMD ["uvicorn", "app.rover_movement.infrastructure.FastAPI.main:app", "--host", "0.0.0.0",  "--port", "8888", "--no-server-header", "--reload"]

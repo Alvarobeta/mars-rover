@@ -1,11 +1,11 @@
 version: '3.8'
 services:
-  local-server:
-    container_name: local-server
+  local-server-mars_rover:
+    container_name: local-server-mars_rover
     tty: true
     build:
       context: .
-      target: local-server
+      target: local-server-mars_rover
     ports:
       - "8888:8888"
     volumes:
