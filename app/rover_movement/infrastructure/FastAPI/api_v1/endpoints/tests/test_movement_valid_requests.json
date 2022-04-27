@@ -1,0 +1,15 @@
+[
+{"request": {"steps": "M"},"response": {"coordinates": {"x": 0, "y": 1}, "direction": "N"}},
+{"request": {"steps": "MM"},"response": {"coordinates": {"x": 0, "y": 2}, "direction": "N"}},
+{"request": {"steps": "MMM"},"response": {"coordinates": {"x": 0, "y": 3}, "direction": "N"}},
+{"request": {"steps": "MMMM"},"response": {"coordinates": {"x": 0, "y": 4}, "direction": "N"}},
+{"request": {"steps": "MMMMMMMMMM"},"response": {"coordinates": {"x": 0, "y": 0}, "direction": "N"}},
+{"request": {"steps": "R"},"response": {"coordinates": {"x": 0, "y": 0}, "direction": "W"}},
+{"request": {"steps": "RR"},"response": {"coordinates": {"x": 0, "y": 0}, "direction": "S"}},
+{"request": {"steps": "RRR"},"response": {"coordinates": {"x": 0, "y": 0}, "direction": "E"}},
+{"request": {"steps": "RRRR"},"response": {"coordinates": {"x": 0, "y": 0}, "direction": "N"}},
+{"request": {"steps": "L"},"response": {"coordinates": {"x": 0, "y": 0}, "direction": "E"}},
+{"request": {"steps": "LL"},"response": {"coordinates": {"x": 0, "y": 0}, "direction": "S"}},
+{"request": {"steps": "LLL"},"response": {"coordinates": {"x": 0, "y": 0}, "direction": "W"}},
+{"request": {"steps": "LLLL"},"response": {"coordinates": {"x": 0, "y": 0}, "direction": "N"}}
+]
