@@ -29,11 +29,6 @@ class RoverMoverService:
     def move_to_next_position(
         self, rover: Rover
     ) -> Rover:
-
-        logger.debug(f'Rover before movement={rover}')
-
         rover_after_move = self._movement.move(rover)
-
-        logger.debug(f'Rover after movement={rover_after_move}')
 
         return rover_after_move

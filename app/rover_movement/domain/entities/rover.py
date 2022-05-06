@@ -1,7 +1,9 @@
 from dataclasses import dataclass
 
-from app.rover_movement.domain.entities.cardinal_point import CardinalPoint
-from app.rover_movement.domain.entities.coordinates import Coordinates
+from app.rover_movement.domain.entities.cardinal_point import \
+    CardinalPoint
+from app.rover_movement.domain.entities.coordinates import \
+    Coordinates
 
 
 @dataclass

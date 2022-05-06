@@ -11,13 +11,7 @@ from app.rover_movement.application.move_rover.move_rover_command import \
     MoveRoverCommand
 from app.rover_movement.application.move_rover.move_rover_handler import \
     MoveRoverHandler
-# from app.rover_movement.application.move_rover.move_rover_command import \
-#     ComputeNewTargetCommand
-# from app.rover_movement.application.move_rover.move_rover_handler import \
-#     ComputeNewTargetHandler
-# from app.rover_movement.domain.entities.scanned_point import ScannedPoint
-# from app.rover_movement.domain.priority_protocols.available_decorator_protocol import \
-#     AvailableDecoratorProtocol
+    
 
 logger = logging.getLogger(__name__)
 

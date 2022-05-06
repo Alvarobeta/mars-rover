@@ -12,24 +12,7 @@ from app.rover_movement.domain.move_rover.rotate_rover_left import \
     RotateRoverLeft
 from app.rover_movement.domain.move_rover.rotate_rover_right import \
     RotateRoverRight
-# from app.target_selector.domain.priority_protocols.assist_allies_protocol import \
-#     AssistAlliesProtocol
-# from app.target_selector.domain.priority_protocols.available_decorator_protocol import \
-#     AvailableDecoratorMovement
-# from app.target_selector.domain.priority_protocols.avoid_crossfire_protocol import \
-#     AvoidCrossfireProtocol
-# from app.target_selector.domain.priority_protocols.avoid_mech_protocol import \
-#     AvoidMechProtocol
-# from app.target_selector.domain.priority_protocols.closest_enemies_protocol import \
-#     ClosestEnemiesProtocol
-# from app.target_selector.domain.priority_protocols.furthest_enemies_protocol import \
-#     FurthestEnemiesProtocol
-# from app.target_selector.domain.priority_protocols.incompatible_protocols_exception import \
-#     IncompatibleProtocolsException
-# from app.target_selector.domain.priority_protocols.prioritize_mech_protocol import \
-#     PrioritizeMechProtocol
-# from app.target_selector.domain.priority_protocols.protocol_interface import \
-#     ProtocolInterface
+
 
 logger = logging.getLogger(__name__)
 
